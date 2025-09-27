@@ -27,7 +27,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
-
+   height: 100vh;
   
 }
 body * {
@@ -189,11 +189,18 @@ ul li a{
     }
   }
 
+/* media queries */
+@media (min-hidth; 700px) {
+  :root {
+    --bg-url: url(./assets/Ellie-desk.jpg);
 
-  @media (max-width: 600px) {
-    .light {
-        background-position: center; /* centraliza horizontalmente */
-        background-size: contain;    /* mantém a proporção da imagem */
-    }
+  }
+
+  .light {
+    --bg-url: url(./assets/satoru-desk-light.jpg);
+  }
 }
+
+
+
 
