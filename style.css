@@ -6,7 +6,7 @@
 
 :root{
   --text-color:white;
-  --bg-url: url(./assets/paisage-mobile.jpg);
+  --bg-url: url(./assets/lindo-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light{
   --text-color:black;
-  --bg-url: url(./assets/usa-mobile-light.jpg);
+  --bg-url: url(./assets/pretoo-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -192,12 +192,12 @@ ul li a{
 /* media queries */
  @media (min-hidth: 700px) { 
   :root {
-    --bg-url: url(./assets/paisage-mobile.jpg);
+    --bg-url: url(./assets/lindo-mobile.jpg);
 
   }
 
   .light {
-    --bg-url: url(./assets/usa-mobile-light.jpg);
+    --bg-url: url(./assets/pretoo-mobile-light.jpg);
   }
 }
 
