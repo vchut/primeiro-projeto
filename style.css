@@ -6,7 +6,7 @@
 
 :root{
   --text-color:white;
-  --bg-url: url(./assets/img-mobile.jpg);
+  --bg-url: url(./assets/cast-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -192,7 +192,7 @@ ul li a{
 /* media queries */
  @media (min-hidth: 700px) { 
   :root {
-    --bg-url: url(./assets/img-mobile.jpg);
+    --bg-url: url(./assets/cast-mobile.jpg);
 
   }
 
